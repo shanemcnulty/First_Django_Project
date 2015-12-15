@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th> Name</th>
+            <th> Descriptions</th>
+            <th> Price</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+            <tr>
+                <td> {{ product.name }} </td>
+                <td> {{ product.description }} </td>
+                <td> ${{ product.price }} </td>
+                <td> {{ product.paypal_form.render }} </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

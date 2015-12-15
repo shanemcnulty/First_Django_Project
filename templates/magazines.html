@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load magazine_extras %}
+{% block content %}
+
+     <h1> What the fuck is going on!!!!</h1>
+
+    {% for magazine in magazines %}
+        <tr>
+            <td> {{ magazine.name }} </td>
+            <td> {{ magazine.description }} </td>
+            <td> $ {{ magazine.price }} </td>
+            <td> {% paypal_form_for magazine user %}</td>
+        </tr>
+    {% endfor %}
+{% endblock %}
