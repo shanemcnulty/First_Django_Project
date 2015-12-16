@@ -93,9 +93,9 @@ WSGI_APPLICATION = 'wearesocial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'paid_site_production',
-        'USER': 'paid_site_production_user',
-        'PASSWORD': 'some-password',
+        'NAME': 'wearesocial',
+        'USER': 'wearesocial_user',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -137,7 +137,6 @@ SITE_URL = 'http://127.0.0.1:8000'
 PAYPAL_NOTIFY_URL = 'http://f70f9d61.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'shanemcnultydesign@hotmail.com'
 
-TEMPLATE_DEBUG = False
 
 try:
     from local_settings import *
