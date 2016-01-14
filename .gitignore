@@ -1,4 +1,8 @@
 *.pyc
+<<<<<<< HEAD
 *.wp*
 *.sqlite3
 local_settings.py
+=======
+local_settings.py
+>>>>>>> d76fff31ba544e1eadb40748cd78027fc7b9c2de
