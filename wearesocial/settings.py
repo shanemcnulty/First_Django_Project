@@ -25,7 +25,7 @@ SECRET_KEY = 'cdo)z$a80-rsz%0#ke56w+s(q@oj*)h)w1=$-04oav!1*0%hc9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'accounts.User'
 
@@ -51,6 +51,10 @@ INSTALLED_APPS = (
     'stripe',
     'paypal.standard.ipn',
     'products',
+    'tinymce',
+    'emoticons',
+    'debug_toolbar',
+    'threads',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -93,14 +97,13 @@ WSGI_APPLICATION = 'wearesocial.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'paid_site_production',
-        'USER': 'paid_site_production_user',
-        'PASSWORD': 'some-password',
+        'NAME': 'weare',
+        'USER': 'shane',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -121,8 +124,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+# tinymce settings
+TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", 'js', 'tinymce', 'tinymce.min.js')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
@@ -137,7 +142,7 @@ SITE_URL = 'http://127.0.0.1:8000'
 PAYPAL_NOTIFY_URL = 'http://f70f9d61.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'shanemcnultydesign@hotmail.com'
 
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = True
 
 try:
     from local_settings import *

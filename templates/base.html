@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="stylesheet" href=" {% static "css/font-awesome-4.5.0/css/font-awesome.min.css" %} ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
     <link rel="stylesheet" href="{% static "css/style.css" %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
-    {% block head_js %}{% endblock %}
+    {% block head_js %}{% endblock head_js %}
 </head>
 
 <body>
@@ -24,6 +24,7 @@
             <li><a href="/pages/about">About</a></li>
             <li><a href=" {% url 'products' %} ">Products</a></li>
             <li><a href=" {% url 'contact' %} ">Contact</a></li>
+            <li><a href=" {% url 'forum' %} ">Fourm</a></li>
             <li><a href=" {% url 'register' %} "> Register </a></li>
             <li><a href=" {% url 'login' %} "> Log In </a></li>
             <li><a href=" {% url 'logout' %} "> Log Out </a></li>

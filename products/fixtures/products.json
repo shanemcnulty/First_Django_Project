@@ -1,0 +1,140 @@
+[
+{
+    "fields": {
+        "username": "Q@Q.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-12-09T15:29:52.400Z",
+        "subscription_end": "2015-12-10T16:01:46.238Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$qiFmvXtnuMm5$LqjbTJd8zUCzXs/anfUBFObwfCFG5lmwFw3f2bwoGhg=",
+        "stripe_id": "",
+        "email": "Q@Q.com",
+        "date_joined": "2015-12-09T15:29:50.330Z"
+    },
+    "model": "accounts.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "username": "w@w.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "subscription_end": "2016-01-08T09:44:28.922Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$aXY9r84N3yJa$j16l0OmvsLbZ3QnTrEXMBCRZNv1JayRTU+OPs69jSCI=",
+        "stripe_id": "cus_7Vp6siOO0H5YfP",
+        "email": "w@w.com",
+        "date_joined": "2015-12-11T09:44:27.215Z"
+    },
+    "model": "accounts.user",
+    "pk": 2
+},
+{
+    "fields": {
+        "username": "wd@w.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "subscription_end": "2016-01-08T09:45:24.333Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$TA7ZaonM2DaF$ChGmjkn8b9tPrCzn6AgvPZ8PSbrJHSYaFmKx7Db45KA=",
+        "stripe_id": "cus_7Vp7Ks574yq7T9",
+        "email": "wd@w.com",
+        "date_joined": "2015-12-11T09:45:22.753Z"
+    },
+    "model": "accounts.user",
+    "pk": 3
+},
+{
+    "fields": {
+        "username": "wd@ws.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-12-11T09:49:28.048Z",
+        "subscription_end": "2016-01-08T10:20:47.665Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$L4UViz6sj77y$F+uY9EdYC++45q3cRMoNR59y3Z2Bw5qTtS492wH0cE4=",
+        "stripe_id": "cus_7VpBHcejAlItVy",
+        "email": "wd@ws.com",
+        "date_joined": "2015-12-11T09:49:26.194Z"
+    },
+    "model": "accounts.user",
+    "pk": 4
+},
+{
+    "fields": {
+        "username": "shane@shane.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-12-11T15:07:51.547Z",
+        "subscription_end": "2016-01-08T15:07:36.687Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$1ByBA5IiAnCB$NVZrk30YVWmMfLG/qFm5rqsgIo9irtLHTzYiCN7KUic=",
+        "stripe_id": "cus_7VuJIF7qpJ4PvV",
+        "email": "shane@shane.com",
+        "date_joined": "2015-12-11T15:07:34.069Z"
+    },
+    "model": "accounts.user",
+    "pk": 5
+},
+{
+    "fields": {
+        "username": "shane0@shane.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-12-11T15:26:39.252Z",
+        "subscription_end": "2015-12-11T15:25:58.963Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$xmwJKCbHGpnB$kfnxtS6Uww2roLRClFCxINOer2d7U5HugH3JNQ5aU7A=",
+        "stripe_id": "",
+        "email": "shane0@shane.com",
+        "date_joined": "2015-12-11T15:26:20.236Z"
+    },
+    "model": "accounts.user",
+    "pk": 6
+},
+{
+    "fields": {
+        "price": "111.99",
+        "name": "Toy",
+        "description": "toy 1"
+    },
+    "model": "accounts.product",
+    "pk": 1
+},
+{
+    "fields": {
+        "price": "10.00",
+        "name": "Test",
+        "description": "Does this work"
+    },
+    "model": "accounts.magazine",
+    "pk": 1
+}
+]
