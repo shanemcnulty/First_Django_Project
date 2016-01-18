@@ -17,19 +17,20 @@
 </head>
 
 <body>
-<div class="container-narrow">
     <div class="masthead">
         <ul class="nav nav-pills pull-right">
             <li><a href=" {% url 'home' %} ">Home</a></li>
             <li><a href="/pages/about">About</a></li>
-            <li><a href=" {% url 'products' %} ">Products</a></li>
+            <li><a href=" {% url 'products' %} ">DVD's</a></li>
             <li><a href=" {% url 'contact' %} ">Contact</a></li>
             <li><a href=" {% url 'forum' %} ">Fourm</a></li>
             <li><a href=" {% url 'register' %} "> Register </a></li>
             <li><a href=" {% url 'login' %} "> Log In </a></li>
             <li><a href=" {% url 'logout' %} "> Log Out </a></li>
         </ul>
-        <h3><span class="fui-settings-16 muted">Social Entrepeneurship</span></h3>
+        <div id="logo-nav">
+            <a href="#"><img src="/media/img/nav-logo.png" alt="logo"></a>
+        </div>
     </div>
     <hr>
 
@@ -43,14 +44,12 @@
         </div>
     {% endif %}
 
-    <div class="container-narrow">
         {% block content %}
         {% endblock %}
-    </div>
     <hr>
     <div class="footer">
-        <p>Copyright © 2105 <a href="http://www.awwwards.com">Get Inspired
-        </a>. Made By Bootcampers and Django </p>
+        <p>Copyright © 2999 <a href="http://www.mcnultyshane.com">Shane McNulty
+        </a>. Made By Shane McNulty with Django </p>
     </div>
 </div>
 </body>

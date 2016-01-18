@@ -1,16 +1,28 @@
 body {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    width: 100%;
 }
 
 /* Custom container */
 .container-narrow {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 80%;
+    height: 500px;
+    padding-top: 30px;
 }
 
-.container-narrow > hr {
-    margin: 30px 0;
+.container-wide{
+    margin: 0 auto;
+    max-width: 70%;
+    height: 500px;
+    padding-top: 30px;
+}
+
+hr{
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top: 0;
 }
 
 /* Main message and Contact button */
@@ -27,4 +39,83 @@ body {
 .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
+}
+
+.background {
+    background-image: url("/media/img/main.jpg");
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.background h1 {
+    padding-top: 100px;
+    font-size: 72px;
+    line-height: 1;
+}
+
+.background .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+    border: white solid;
+}
+
+.footer{
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#logo{
+    padding-top: 100px;
+}
+
+#logo-nav{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.lead {
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+.nav{
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}
+
+.about {
+    background-image: url("/media/img/about1.jpg");
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    color: black;
+}
+
+.abouttext{
+    padding-top: 425px;
+}
+
+.dvd {
+    background-image: url("/media/img/about1.jpg");
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.product{
+    display: block;
+    padding-top: 430px;
 }
