@@ -7,7 +7,7 @@ body {
 /* Custom container */
 .container-narrow {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 60%;
     height: 500px;
     padding-top: 30px;
 }
@@ -15,7 +15,6 @@ body {
 .container-wide{
     margin: 0 auto;
     max-width: 70%;
-    height: 500px;
     padding-top: 30px;
 }
 
@@ -44,7 +43,7 @@ hr{
 .background {
     background-image: url("/media/img/main.jpg");
     background-size: cover;
-    height: 600px;
+    height: 650px;
     text-align: center;
     margin-top: 30px;
     width: 100%;
@@ -95,27 +94,63 @@ a{
 .about {
     background-image: url("/media/img/about1.jpg");
     background-size: cover;
-    height: 550px;
+    height: 400px;
     text-align: center;
     margin-top: 30px;
     width: 100%;
     color: black;
 }
 
-.abouttext{
-    padding-top: 425px;
+.dvd {
+    background-image: url("/media/img/dvd.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
 }
 
-.dvd {
-    background-image: url("/media/img/about1.jpg");
+.ding {
+    background-image: url("/media/img/ding.jpg");
     background-size: cover;
-    height: 550px;
+    height: 710px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.regb {
+    background-image: url("/media/img/reg.jpg");
+    background-size: cover;
+    height: 900px;
     text-align: center;
     margin-top: 30px;
     width: 100%;
 }
 
 .product{
-    display: block;
-    padding-top: 430px;
+    padding-top: 330px;
+}
+
+thead{
+    color: white;
+}
+
+.abouttext{
+    padding: 20px;
+    background-color: white;
+}
+
+.form{
+    margin-top: 240px;
+    color: white;
+}
+
+textarea.form-control {
+    height: 80px;
+}
+
+.reg {
+    color: white;
+    padding-top: 250px;
 }

@@ -22,11 +22,11 @@
             <li><a href=" {% url 'home' %} ">Home</a></li>
             <li><a href="/pages/about">About</a></li>
             <li><a href=" {% url 'products' %} ">DVD's</a></li>
-            <li><a href=" {% url 'contact' %} ">Contact</a></li>
             <li><a href=" {% url 'forum' %} ">Fourm</a></li>
             <li><a href=" {% url 'register' %} "> Register </a></li>
             <li><a href=" {% url 'login' %} "> Log In </a></li>
             <li><a href=" {% url 'logout' %} "> Log Out </a></li>
+            <li><a href=" {% url 'contact' %} ">Contact</a></li>
         </ul>
         <div id="logo-nav">
             <a href="#"><img src="/media/img/nav-logo.png" alt="logo"></a>
@@ -47,10 +47,10 @@
         {% block content %}
         {% endblock %}
     <hr>
-    <div class="footer">
+   <!-- <div class="footer">
         <p>Copyright © 2999 <a href="http://www.mcnultyshane.com">Shane McNulty
         </a>. Made By Shane McNulty with Django </p>
-    </div>
+    </div>-->
 </div>
 </body>
 
